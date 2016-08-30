@@ -37,3 +37,17 @@ Click is cool, but here's it's brethren
 * hover
 * focus
 * change
+
+Methods that can be run on an element:
+* .html()
+* .val()
+* .empty()
+* .toggle()
+* .hide()
+* .show()
+* .slideToggle()
+* .slideUp()
+* .slideDown()
+* .fadeToggle()
+* .fadeIn()
+* .fadeOut()

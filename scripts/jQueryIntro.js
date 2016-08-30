@@ -4,6 +4,12 @@ var clicks = 0;
 
 $( document ).ready( function(){
   console.log( 'doc ready' );
+
+  $( '#clearP' ).on( 'click', function(){
+    console.log( 'in clearP on click');
+    $( '#outputP' ).fadeToggle();
+  }); // end clearP on click
+
   // clickMe button
   $( '#clickMe' ).on( 'click', function(){
     console.log( 'clickMe on click');
